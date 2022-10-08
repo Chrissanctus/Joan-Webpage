@@ -1,0 +1,456 @@
+/*Colors to use whites and greens */
+*{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fffff2;
+    margin: 2rem 4rem 0;
+    font-family: 'Outfit', sans-serif;
+
+}
+.material-symbols-outlined{
+    overflow: hidden;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+nav img{
+    height: 3rem;
+    margin-right: 32rem ;
+}
+nav ul li{
+    display: inline-block;
+    padding: 1rem;
+
+}
+.cta-one{
+    padding: 1rem 2rem 1rem;
+    background-color: #0ba364;
+    border-radius: 5px;
+    color: #ffffff;
+
+}
+/**First Section **/
+
+main .one{
+    background-color: #f0fff9;
+    box-shadow: 1rem 2rem 4rem #f0fff9;
+    margin: 0 0 4rem;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.major{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-top: 6rem;
+}
+.minor{
+    font-size: 0.8rem;
+}
+.cta-two{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem 0.5rem;
+    background-color: #0ba364;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 0.8rem;
+
+}
+.cta-two a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.play{
+    background-color: #000000;
+    border-radius: 100%;
+    color: #ffffff;
+    padding:  0.4rem ;
+    margin-left: 1rem;
+}
+.demo{
+    font-size: 0.8rem;
+    display: inline-block;
+    margin: 0 0 0.7rem 1rem;
+    font-weight: 600;
+
+}
+
+
+.Side-two img{
+    border-radius: 35%;
+    padding-top: 2rem;
+    
+}
+.card-6k{
+    padding: 1rem;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10%;
+    position: absolute;
+    z-index: 99;
+    top: 5rem;
+    left: 32rem;
+}
+.card-3{
+    padding: 1rem;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10%;
+    position: absolute;
+    z-index: 99;
+    top: 19rem;
+    right: 3rem;
+}
+.card-two{
+    padding: 1rem;
+    background-color: #0ba364;
+    color: #ffffff;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10%;
+    position: absolute;
+    z-index: 99;
+    top: 23rem;
+    right: 17rem;
+}
+/** Second Section **/
+
+.two{
+    background-color: #ffffff;
+    box-shadow: 1rem 2rem 4rem #ffffff;
+}
+.two .head{
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.two .head-sub{
+    text-align: center;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+.image-box{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 3rem 3rem 7rem;
+}
+.image-box h3{
+    margin: 1rem 0 1rem;
+}
+.down{
+    padding-top: 2rem 
+}
+
+.story-flex{
+    background-color: #0ba364;
+    color: #ffffff;
+    width: 70%;
+    margin: 0 15% 5rem;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.story h2{
+    margin: 2rem 0 1rem;
+}
+.our-story{
+    padding: 0 1rem 2rem 0 ;
+}
+.two .material-symbols-outlined{
+    background-color: aquamarine;
+    border-radius: 100%;
+    padding: 1rem;
+    color: #000000;
+}
+.cta-three{
+    display: inline-block;
+    padding: 0.5rem 1rem 0.5rem;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #0ba364;
+    font-size: 0.8rem;
+}
+
+/** Third Section **/
+
+.third{
+    background-color: #f0fff9;
+    margin-top: 3rem;
+    box-shadow: 1rem 2rem 4rem #f0fff9;
+}
+.services{
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.special{
+    text-align: center;
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+.cta-section-3{
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem 0.5rem;
+    background-color: #ffffff;
+    border-radius: 15%;
+    color: #000000;
+    font-size: 0.8rem;
+}
+.cta-section-3 .material-symbols-outlined{
+    
+}
+
+/** row one **/
+.row-one{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Accounting{
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 3rem;
+    background-color: #F2DCAA;
+    text-align: center;
+    flex-basis: 40%;
+    width: 10rem;
+}
+.Finance{
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 3rem;
+    background-color: #34a073;
+    text-align: center;
+    flex-basis: 40%;
+    width: 10rem;
+}
+.Leader{
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 3rem;
+    background-color: #F2DCAA;
+    text-align: center;
+    flex-basis: 40%;
+}
+/** row two **/
+.row-two{
+    display: flex;
+    justify-content: space-between;
+}
+.preparatory{
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 3rem;
+    background-color: #34a073;
+    text-align: center;
+    flex-basis: 40%;
+}
+.English{
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 3rem;
+    background-color: #F2DCAA;
+    text-align: center;
+    flex-basis: 40%;
+
+}
+.reporting{
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 3rem;
+    background-color: #34a073;
+    text-align: center;
+    flex-basis: 40%;
+}
+.accounting-head, .finance-head, .leader-head, .preparatory-head, .english-head, .reporting-head{
+    font-weight: 600;
+}
+/** Fourth Section **/
+
+.fourth{
+    margin: 4rem 0 8rem;
+    background-color: #ffffff;
+
+}
+.frequently{
+    font-weight: 600;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    
+}
+.un, .deux, .tri, .quart, .cen{
+    border: 2px solid #34a073;
+    border-radius: 5px;
+    margin: 1rem 0 1rem;
+    padding: 1.5rem 2rem 1.5rem;
+    box-shadow: 2rem 2rem 1.5rem 2rem #fffff2 ;
+    
+}
+.un p,  .deux p, .tri p, .quart p, .cen p{
+    font-size: 1.5rem;
+}
+
+/** footer **/
+footer{
+    margin: 4rem 0 4rem 0;
+    padding-bottom: 3rem;
+    background-color: #34a073;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+}
+footer img{
+    height: 3rem;
+    margin: 2rem 0 2rem; ;
+}   
+footer p{
+    font-size: 1.5rem;
+    margin: 2rem 0 2rem;
+    cursor: pointer;
+}
+footer ul li{
+    list-style: none;
+    padding-bottom: 1rem;
+    cursor:pointer;
+    
+}
+footer input{
+    padding: 0.8rem 1rem 0.8rem 1rem;
+    border-radius: 5px;
+    border: 1px;
+    width: 20rem;
+    outline: none;
+}
+footer span{
+    display: inline-block;
+}
+.row-quartz button{
+       
+    margin-top: 1rem;
+    padding: 0.8rem 1rem 0.8rem;
+    background-color: #505050;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 0.8rem;
+    border: 1px solid #505050;
+    cursor:pointer
+
+}
+
+/* Form */
+.form-body{
+    border: 5px solid #9cd4bd;
+    width: 40rem;
+    border-radius: 5px;
+    background-color: #F0FFF9;
+}
+.form-body h2{
+    font-size: 2rem;
+    margin: 2rem 5rem 1rem;
+}
+.form-body form{
+    margin: 2rem 5rem 2rem;
+}
+.form-body .mapouter{
+    margin: 2rem 5rem 2rem;
+    width: 25rem;
+}
+.form-body input, textarea{
+    width: 25rem;
+    padding: 1rem;
+    border-radius: 5%;
+    outline: none;
+    border: none;
+    margin-bottom: 1rem;
+    resize: none;
+}
+.form-body button{
+    width: 5rem;
+    padding: 0.6rem;
+    border-radius: 5%;
+    border: none;
+}
+
+/*MEDIA */
+@media only screen and (max-width:650px) {
+    /* Fiirst Section */
+    nav{
+        display: block;
+    }
+    nav img{
+        padding-left: 60px;
+    }
+    .cta-one{
+        text-align: center;
+    }
+    main .one{
+        display: block;
+        padding: 0 10px 0;
+    }
+    .side-one{
+        padding-top: 0px;
+    }
+    .Side-two img{
+        height: 150px;
+        width: auto;
+    }
+    .card-3{
+        display: none
+    }
+    .great{
+        display: block;
+    }
+    /* Second Section */
+   .image-box{
+    display: block;
+   }
+   .story-flex{
+    display: block;
+    padding: 1.5rem 1rem 1.5rem;
+    font-size: 0.8rem;
+    text-align: center;
+    margin: none;
+    
+   }
+   .img{
+    display: none;
+   }
+   /*Third Section*/
+   .other-card{
+    display: block;
+    width: 16.5rem;
+    margin: none;
+    height: auto;
+   }
+
+   /* Fourth Section */
+   .fourth{
+    font-size: 1.5rem;
+    display: block;
+    
+   }
+   footer{
+    display: block;
+    margin: ;
+   }
+   .row-un, .row-deux, .row-tri, .row-quartz{
+    padding: 0 15px 0 15px;
+   }
+}
